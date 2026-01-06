@@ -14,7 +14,6 @@ http://47.100.32.213:88/
 ### 环境要求
 
 - **推荐**: Python 3.8+
-- **最低要求**: Python 3.6+ (使用 `requirements_3.6.txt`)
 - 支持 IPv4/IPv6 网络环境
 
 ### 关于虚拟环境
@@ -47,12 +46,6 @@ source dns_test_env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-**Python 3.6 (兼容版本):**
-```bash
-pip install -r requirements_3.6.txt
-```
-> ⚠️ **注意**: Python 3.6 已于 2021 年停止官方支持，建议升级到 Python 3.8+ 以获得更好的性能和安全性。Python 3.6 版本使用最小化依赖配置，完全避免编译问题，适合生产环境快速部署。
 
 ### 运行工具
 
